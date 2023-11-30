@@ -1,5 +1,5 @@
 # Data and Knowledge Engineering Labortory Homepage
-- Kyung Hee University, Coleege of Software Convergence
+- Kyung Hee University, College of Software Convergence
 - Research Topic
     - In-Memory RDBMS Query Optimization
     - Graph Neural Network Learning Engine Development
