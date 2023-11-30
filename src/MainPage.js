@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import Particles from 'react-particles';
 import { loadSlim } from 'tsparticles-slim';
 import particlesConfig from "./assets/particlesConfig.json";
-import './MainPage.css';
+import './styles/MainPage.css';
 import IITP from './assets/images/sponsors/IITP.jpg';
 import ETRI from './assets/images/sponsors/ETRI.png';
 import SAP from './assets/images/sponsors/SAP.jpg';

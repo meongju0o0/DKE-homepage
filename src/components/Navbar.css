@@ -1,63 +1,3 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f3f3f3;
-}
-
-.header, .footer {
-    background-color: #555;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.header {
-    position: relative;
-    height: 200px;
-    overflow: hidden;
-}
-
-#Particles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
-.header-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    color: white;
-    text-align: center;
-}
-
-.header a, .header a:visited {
-text-decoration: none;
-color: white;
-}
-
-.footer {
-    background-color: #f0f0f0;
-    color: #555;
-    text-align: left;
-    padding-left: 50px;
-}
-
-.footer p {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-img.sponsor {
-    width: auto;
-    height: 130px;
-}
-
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -75,23 +15,6 @@ img.sponsor {
 .navbar a:hover {
     background-color: #ddd;
     color: black;
-}
-
-.wrapper {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 0 10px;
-}
-
-.main-content {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.section {
-    margin-bottom: 20px;
 }
 
 .dropdown {
