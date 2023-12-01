@@ -9,9 +9,14 @@
 
 ## Build, Run
 ```bash
-
+sudo apt-get update
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install nodejs
+git clone https://github.com/meongju0o0/DKE-homepage
+npm run build
+serve -s build
 ```
 
 ### License
-Copyright 2023 KHU DKE Lab.
+© 2023 KHU DKE Lab.
 KHU DKE Lab uses MIT License.
