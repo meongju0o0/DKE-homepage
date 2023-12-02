@@ -14,12 +14,8 @@ body {
 .header {
     position: relative;
     height: 200px;
-<<<<<<< HEAD
-    overflow: hidden;
     z-index: -2;
-=======
     overflow: clip;
->>>>>>> ce49be9377776a4a8cfdf3e98bfba457ec51d1a7
 }
 
 #Particles {
