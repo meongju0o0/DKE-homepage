@@ -17,10 +17,11 @@
 ## Build, Run
 ### Ubuntu 22.0.4
 ```bash
+git clone https://github.com/meongju0o0/DKE-homepage
+cd DKE-homepage
 sudo apt-get update
 curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install nodejs
-git clone https://github.com/meongju0o0/DKE-homepage
 npm install -g serve@14.2.1
 npm install
 npm run build
@@ -29,6 +30,8 @@ serve -s build
 
 ### macOS 14.1.2
 ```zsh
+git clone https://github.com/meongju0o0/DKE-homepage
+cd DKE-homepage
 brew install node@20
 npm install -g serve@14.2.1
 npm install
