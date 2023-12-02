@@ -11,6 +11,7 @@
 - macOS 14.1.2
 - Ubuntu 22.0.4
 - node 20.5.1
+- serve 14.2.1
 - other dependencies -> package.json
 
 ## Build, Run
@@ -20,7 +21,7 @@ sudo apt-get update
 curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install nodejs
 git clone https://github.com/meongju0o0/DKE-homepage
-npm install -g serve
+npm install -g serve@14.2.1
 npm install
 npm run build
 serve -s build
@@ -29,7 +30,7 @@ serve -s build
 ### macOS 14.1.2
 ```zsh
 brew install node@20
-npm install -g serve
+npm install -g serve@14.2.1
 npm install
 npm run build
 serve -s build
