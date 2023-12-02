@@ -1,4 +1,4 @@
-# Data and Knowledge Engineering Labortory Homepage
+# Data & Knowledge Engineering Lab.
 - Kyung Hee University, College of Software Convergence
 - Department of Computer Science and Engineering
 - Data and Knowledge Engineering Labortory
