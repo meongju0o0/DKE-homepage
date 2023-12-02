@@ -7,6 +7,12 @@
     - Graph Neural Network Learning Engine Development
     - Development of Search Engine with NLP
 
+## Dependencies
+- macOS 14.1.2
+- Ubuntu 22.0.4
+- node 20.5.1
+- other dependencies -> package.json
+
 ## Build, Run
 ```bash
 sudo apt-get update
