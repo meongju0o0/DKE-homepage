@@ -5,16 +5,13 @@ body {
     background-color: #f3f3f3;
 }
 
-.header, .footer {
-    background-color: #555;
-    padding: 10px 0;
-    text-align: center;
-}
-
 .header {
-    position: relative;
     height: 200px;
+    padding: 10px 0;
     z-index: -2;
+    background-color: #555;
+    text-align: center;
+    position: relative;
     overflow: clip;
 }
 

@@ -26,7 +26,7 @@ function MainPage() {
             <div className="header">
                 <Particles id="Particles" init={particlesInit} loaded={particlesLoaded} options={particlesOptions}/>
                 <div className="header-content">
-                    <a href="./index.html">
+                    <a href="/">
                         <h1>Data & Knowledge Engineering Lab.</h1>
                     </a>
                 </div>
