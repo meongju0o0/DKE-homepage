@@ -1,37 +1,17 @@
-import React, { useCallback } from 'react';
-import Particles from 'react-particles';
-import { loadSlim } from 'tsparticles-slim';
-import particlesConfig from "./assets/particlesConfig.json";
+import React from 'react';
 import './styles/MainPage.css';
+import { Header } from './components/Header';
 import IITP from './assets/images/sponsors/IITP.jpg';
 import ETRI from './assets/images/sponsors/ETRI.png';
 import SAP from './assets/images/sponsors/SAP.jpg';
 import POSTECH from './assets/images/sponsors/POSTECH.png';
 import KNU from './assets/images/sponsors/KNU.png';
 
+
 function MainPage() {
-    const particlesInit = useCallback(async engine => {
-        console.log(engine);
-        await loadSlim(engine);
-    }, []);
-
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
-    }, []);
-
-    const particlesOptions = particlesConfig
-
     return (
         <div>
-            <div className="header">
-                <Particles id="Particles" init={particlesInit} loaded={particlesLoaded} options={particlesOptions}/>
-                <div className="header-content">
-                    <a href="/">
-                        <h1>Data & Knowledge Engineering Lab.</h1>
-                    </a>
-                </div>
-            </div>
-
+            <Header/>
             <div className="wrapper">
                 <div className="main-content">
                     <div className="section">
