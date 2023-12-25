@@ -22,11 +22,11 @@ export function Header() {
         <header> {
             <div className="header">
                 <Particles id="Particles" init={particlesInit} loaded={particlesLoaded} options={particlesOptions}/>
-                <div className="header-content">
-                    <a href="/">
+                <a href="/">
+                    <div className="header-content">
                         <h1>Data & Knowledge Engineering Lab.</h1>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
         }
         </header>
