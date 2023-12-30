@@ -17,7 +17,7 @@ export function Header() {
     }, []);
 
     const particlesOptions = particlesConfig
-ㅁ
+
     return (
         <header> {
             <div className="header">
