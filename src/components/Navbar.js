@@ -11,7 +11,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/admissions/#">Link 1</a>
+                            <a href="/pages/admissions/admissions">Link 1</a>
                         </div>
                     </div>
                     <div className="dropdown">
@@ -19,7 +19,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/members/#">Link 1</a>
+                            <a href="/pages/members/members">Link 1</a>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -27,7 +27,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/publications/#">Link 1</a>
+                            <a href="/pages/publications/publications">Link 1</a>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -35,7 +35,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/research/#">Link 1</a>
+                            <a href="/pages/research/research">Link 1</a>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -43,7 +43,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/about/#">Link 1</a>
+                            <a href="/pages/about/about-professor">About Professor</a>
                         </div>
                     </div>
                 </div>
