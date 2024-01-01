@@ -23,7 +23,6 @@ function App() {
                     <Route path="/pages/publications" component={Publications} />
                     <Route path="/pages/members" component={Members} />
                     <Route path="/pages/admissions" component={Admissions} />
-
                 </Routes>
                 <Footer />
             </div>

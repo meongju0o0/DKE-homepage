@@ -13,11 +13,10 @@ export const MainContent = () => {
     const imageURL = '/images/group-photos/';
     const images = [
         imageURL+'img1.jpg',
-        imageURL+'img2.jpg',
+        imageURL+'img2.png',
         imageURL+'img3.png',
         imageURL+'img4.png',
-        imageURL+'img5.png',
-        imageURL+'img6.png'
+        imageURL+'img5.png'
     ];
 
     return (
