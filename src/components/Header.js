@@ -1,9 +1,11 @@
 import React, { useCallback } from 'react';
-import '../styles/Header.css';
+import { Link } from 'react-router-dom';
 
 import Particles from 'react-particles';
 import { loadSlim } from 'tsparticles-slim';
 import particlesConfig from "../assets/particlesConfig.json";
+
+import '../styles/Header.css';
 
 
 export function Header() {
@@ -22,11 +24,11 @@ export function Header() {
         <header> {
             <div className="header">
                 <Particles id="Particles" init={particlesInit} loaded={particlesLoaded} options={particlesOptions}/>
-                <a href="/">
+                <Link to="/">
                     <div className="header-content">
                         <h1>Data & Knowledge Engineering Lab.</h1>
                     </div>
-                </a>
+                </Link>
             </div>
         }
         </header>

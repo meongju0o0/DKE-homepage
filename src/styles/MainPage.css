@@ -6,8 +6,11 @@ body {
 }
 
 img.sponsor {
+    display: inline;
     width: auto;
     height: 130px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .wrapper {
