@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import '../styles/Navbar.css';
 
 const Navbar = () => {
@@ -11,7 +13,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/admissions/admissions">Link 1</a>
+                            <Link to="/pages/admissions/admissions">Link 1</Link>
                         </div>
                     </div>
                     <div className="dropdown">
@@ -19,7 +21,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/members/members">Link 1</a>
+                            <Link to="/pages/members/members">Link 1</Link>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -27,7 +29,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/publications/publications">Link 1</a>
+                            <Link to="/pages/publications/publications">Link 1</Link>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -35,7 +37,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/research/research">Link 1</a>
+                            <Link to="/pages/research/research">Link 1</Link>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -43,7 +45,9 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="/pages/about/about-professor">About Professor</a>
+                            <Link to="/pages/about/about-professor">About Professor</Link>
+                            <Link to="/pages/about/greetings">Greetings</Link>
+                            <Link to="/pages/about/missions">Missions</Link>
                         </div>
                     </div>
                 </div>
