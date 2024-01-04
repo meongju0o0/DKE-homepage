@@ -5,6 +5,10 @@ body {
     background-color: #f3f3f3;
 }
 
+p {
+    line-height: 125%;
+}
+
 .main-content {
     background-color: white;
     padding: 20px;

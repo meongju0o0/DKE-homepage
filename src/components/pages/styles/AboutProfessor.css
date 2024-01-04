@@ -1,7 +1,16 @@
-img {
+h4.intro {
+    margin-bottom: 12px;
+}
+
+p.intro {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+img.intro {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
-    width: 400px;
+    width: 350px;
 }
 
 .intro {

@@ -5,6 +5,10 @@ body {
     background-color: #f3f3f3;
 }
 
+p {
+    line-height: 125%;
+}
+
 img.sponsor {
     display: inline;
     width: auto;
