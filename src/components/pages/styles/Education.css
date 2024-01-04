@@ -1,0 +1,24 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.school-info, .location-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.edu-school, .edu-country {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.edu-degree, .edu-date {
+    flex-basis: 50%;
+    text-align: right;
+}

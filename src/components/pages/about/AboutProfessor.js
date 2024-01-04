@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Education } from './Education';
+import { Experiences } from './Experiences';
 import '../styles/Default.css';
 import '../styles/AboutProfessor.css';
 
@@ -45,6 +46,20 @@ const AboutProfessor = () => {
                         <Education department = { "Computer Science" } school = { "Korea Advanced Institute of Science and Technology" } degree = { "Master Degree" } country = { "Daejeon, Republic of Korea" } date = { "Mar. 1992 - Feb. 1994" } />
                         <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
                         <Education department = { "Computer Science" } school = { "Korea Advanced Institute of Science and Technology" } degree = { "Bachelor Degree" } country = { "Daejeon, Republic of Korea" } date = { "Mar. 1988 - Feb. 1992" } />
+                    </ul>
+                </div>
+                <div className="section">
+                    <h3 className="intro">Professional Experiences</h3>
+                    <ul>
+                        <Experiences department = { "Department of Computer Science and Engineering" } company = { "Kyung Hee University" } position = { "Professor" } country = { "Yong-In, Korea" } date = { "Mar. 2015 - present" } />
+                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <Experiences department = { "Department of Computer Science and Engineering" } company = { "Kyung Hee University" } position = { "Associate Professor" } country = { "Yong-In, Korea" } date = { "Mar. 2010 - Feb. 2015" } />
+                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <Experiences department = { "Department of Computer Science and Engineering" } company = { "Kyung Hee University" } position = { "Assistant Professor" } country = { "Yong-In, Korea" } date = { "Mar. 2004 - Feb. 2010" } />
+                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <Experiences department = { "Department of Computer Engineering" } company = { "University of Illinois at Urbana-Champaign" } position = { "Postdoctoral Research Associate" } country = { "Illinois, USA" } date = { "Sep. 2002 - Feb. 2004" } />
+                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <Experiences department = { "Adavanced Information Technology Research Center(AITrc)" } company = { "KAIST" } position = { "Post Doctoral Fellow" } country = { "Daejeon, Korea" } date = { "Mar. 2002 - Feb. 2004" } />
                     </ul>
                 </div>
                 <div className="section">

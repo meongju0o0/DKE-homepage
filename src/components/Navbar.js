@@ -54,12 +54,12 @@ const Navbar = () => {
                         <div className="dropdown-content">
                             <Link to="/pages/about/about-professor">About Professor</Link>
                             <Link to="/pages/about/missions">Missions</Link>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         }
-    </nav>
+        </nav>
     );
 };
 
