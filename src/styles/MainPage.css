@@ -6,7 +6,11 @@ body {
 }
 
 p {
-    line-height: 125%;
+    line-height: 130%;
+}
+
+li {
+    line-height: 130%;
 }
 
 img.sponsor {

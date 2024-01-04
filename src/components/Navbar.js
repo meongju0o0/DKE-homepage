@@ -20,7 +20,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <Link to="/pages/admissions/admissions">Link 1</Link>
+                            <Link to="/pages/members/admissions">Link 1</Link>
                         </div>
                     </div>
                     <div className="dropdown">
@@ -36,7 +36,7 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <Link to="/pages/publications/publications">Link 1</Link>
+                            <a href="https://dblp.org/pid/53/1318.html" target="_blank">DBLP</a>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -54,12 +54,12 @@ const Navbar = () => {
                         <div className="dropdown-content">
                             <Link to="/pages/about/about-professor">About Professor</Link>
                             <Link to="/pages/about/missions">Missions</Link>
-                        </div>
                     </div>
                 </div>
             </div>
-            }
-        </nav>
+        </div>
+        }
+    </nav>
     );
 };
 

@@ -2,6 +2,10 @@ h4.intro {
     margin-bottom: 12px;
 }
 
+h3.intro {
+    margin-left: 20px;
+}
+
 p.intro {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -10,7 +14,9 @@ p.intro {
 img.intro {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: block;
-    width: 350px;
+    width: 375px;
+    margin-left: 10px;
+    margin-right: 0px;
 }
 
 .intro {
@@ -19,7 +25,8 @@ img.intro {
 }
 
 .img-intro {
-    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
     width: auto;
 }
 
