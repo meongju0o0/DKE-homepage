@@ -11,13 +11,13 @@ const Missions = () => {
         <div className="wrapper">
             <div className="main-content">
                 <div className="section">
-                    <h2>Our Vision</h2>
+                    <h2>Vision</h2>
                     <p>Our vision is to be at the forefront of research in data and knowledge engineering, breaking down complex data patterns and transforming them into accessible and actionable knowledge.</p>
                     <p>We aim to be pioneers, driving the future of technology and shaping societal understanding of how data can be leveraged for good.</p>
                 </div>
 
                 <div className="section">
-                    <h2>Our Missions</h2>
+                    <h2>Missions</h2>
                     <ul>
                         <li>Graph Neural Network</li>
                         <img src={GNN} alt="GNN" />

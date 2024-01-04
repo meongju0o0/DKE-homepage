@@ -2,12 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import '../styles/Navbar.css';
+import LOGO from '../assets/images/logo/DKE-logo-removebg.png';
+
 
 const Navbar = () => {
     return (
         <nav> {
             <div className="navbar">
                 <div className = "wrapper">
+                    <button style={ {marginLeft: '10px', marginTop: '5px', padding: '0px', border: '0px', backgroundColor: '#333'}}>
+                        <Link to= "/" style={ {padding: '0px', backgroundColor: '#333'}}>
+                            <img style={ {width: '80px', backgroundColor: '#333', padding: '0px', margin: '0px'} } src={ LOGO } alt="DistLearning" />
+                        </Link>
+                    </button>
                     <div className="dropdown">
                         <button className="dropbtn">Admissions 
                             <i className="fa fa-caret-down"></i>
