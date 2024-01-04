@@ -16,10 +16,6 @@ img.sponsor {
     padding: 0 10px;
 }
 
-.section {
-    margin-bottom: 20px;
-}
-
 @media screen and (min-width: 1024px) {
     .wrapper {
         max-width: 70%;

@@ -1,7 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
 .main-content {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section {
     margin-bottom: 20px;
 }
 
