@@ -5,7 +5,9 @@ const Footer = () => {
     return (
         <footer> {
             <div className="footer">
-                <p>ⓒ 2023 KHU DKE Lab. DKE Lab uses MIT License</p>
+                <div className="wrapper">
+                    <p>ⓒ 2023 KHU DKE Lab. DKE Lab uses MIT License</p>
+                </div>
             </div>
         }
         </footer>

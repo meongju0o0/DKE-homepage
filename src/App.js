@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import MainPage from './MainPage';
 
 import AboutProfessor from './components/pages/about/AboutProfessor'
-import Greetings from './components/pages/about/Greetings'
 import Missions from './components/pages/about/Missions'
 import Research from './components/pages/research/Research'
 import Publications from './components/pages/publications/Publications'
@@ -19,14 +18,13 @@ function App() {
             <div>
                 <Navbar />
                 <Routes>
-                    <Route index element={<MainPage />} />
-                    <Route path="/pages/about/about-professor" component={AboutProfessor} />
-                    <Route path="/pages/about/greetings" component={Greetings} />
-                    <Route path="/pages/about/missions" component={Missions} />
-                    <Route path="/pages/research" component={Research} />
-                    <Route path="/pages/publications" component={Publications} />
-                    <Route path="/pages/members" component={Members} />
-                    <Route path="/pages/admissions" component={Admissions} />
+                    <Route path="/" element={<MainPage />} />
+                    <Route path="/pages/about/about-professor" element={<AboutProfessor />} />
+                    <Route path="/pages/about/missions" element={<Missions />} />
+                    <Route path="/pages/research" element={<Research />} />
+                    <Route path="/pages/publications" element={<Publications />} />
+                    <Route path="/pages/members" element={<Members />} />
+                    <Route path="/pages/admissions" element={<Admissions />} />
                 </Routes>
                 <Footer />
             </div>

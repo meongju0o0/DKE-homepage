@@ -1,0 +1,33 @@
+.main-content {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .wrapper {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .wrapper {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}

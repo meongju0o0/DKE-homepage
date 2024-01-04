@@ -46,7 +46,6 @@ const Navbar = () => {
                         </button>
                         <div className="dropdown-content">
                             <Link to="/pages/about/about-professor">About Professor</Link>
-                            <Link to="/pages/about/greetings">Greetings</Link>
                             <Link to="/pages/about/missions">Missions</Link>
                         </div>
                     </div>
