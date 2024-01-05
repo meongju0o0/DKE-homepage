@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { NewTabLink } from './NewTabLink';
 import '../styles/Navbar.css';
 import LOGO from '../assets/images/logo/DKE-logo-removebg.png';
 
@@ -16,19 +17,14 @@ const Navbar = () => {
                         </Link>
                     </button>
                     <div className="dropdown">
-                        <button className="dropbtn">Admissions 
-                            <i className="fa fa-caret-down"></i>
-                        </button>
-                        <div className="dropdown-content">
-                            <Link to="/pages/members/admissions">Link 1</Link>
-                        </div>
-                    </div>
-                    <div className="dropdown">
                         <button className="dropbtn">Members
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <Link to="/pages/members/members">Link 1</Link>
+                            <Link to="/pages/members/doctoral">Doctoral</Link>
+                            <Link to="/pages/members/master">Master</Link>
+                            <Link to="/pages/members/bachelor">Bachelor</Link>
+                            <Link to="/pages/members/alumni">Alumni</Link>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -36,7 +32,9 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <a href="https://dblp.org/pid/53/1318.html" target="_blank">DBLP</a>
+                            <NewTabLink to="https://dblp.org/pid/53/1318.html">DBLP</NewTabLink>
+                            <NewTabLink to="https://scholar.google.co.kr/citations?user=Xk6Ige8AAAAJ&hl=en">Google Scholar</NewTabLink>
+                            <NewTabLink to="https://www.dbpia.co.kr/author/authorDetail?ancId=231140">DBpia</NewTabLink>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -44,7 +42,8 @@ const Navbar = () => {
                             <i className="fa fa-caret-down"></i>
                         </button>
                         <div className="dropdown-content">
-                            <Link to="/pages/research/research">Link 1</Link>
+                            <Link to="/pages/research/past-research">Past</Link>
+                            <Link to="/pages/research/ongoing-research">Ongoing</Link>
                         </div>
                     </div> 
                     <div className="dropdown">
@@ -54,6 +53,7 @@ const Navbar = () => {
                         <div className="dropdown-content">
                             <Link to="/pages/about/about-professor">About Professor</Link>
                             <Link to="/pages/about/missions">Missions</Link>
+                            <Link to="/pages/about/contact">Contact</Link>
                         </div>
                     </div>
                 </div>

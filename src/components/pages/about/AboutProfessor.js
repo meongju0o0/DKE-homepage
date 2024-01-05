@@ -76,16 +76,26 @@ const AboutProfessor = () => {
                 <div className="section">
                     <h3 className="intro">Recent Publications</h3>
                     <ul>
-                        <li>paper1</li>
-                        <li>paper2</li>
-                        <li>paper3</li>
-                        <li>paper4</li>
-                        <li>paper5</li>
-                        <li>paper6</li>
-                        <li>paper7</li>
-                        <li>paper8</li>
-                        <li>paper9</li>
-                        <li>paper10</li>
+                        <li>Md Golam Morshed, Tangina Sultana, Young-Koo Lee. "LeL-GNN: Learnable Edge Sampling and Line Based Graph Neural Network for Link Prediction" IEEE Access 11: 56083-56097 (2023)</li>
+                        <br/>
+                        <li>Duong Thi Thu Van, Young-Koo Lee. "A similar structural and semantic integrated method for RDF entity embedding" Appl. Intell. 53(16): 19302-19316 (2023)</li>
+                        <br/>
+                        <li>Tangina Sultana, Md. Delowar Hossain, Muhammad Umair, Muhammad Numan Khan, Aftab Alam, Young-Koo Lee. "Graph pattern detection and structural redundancy reduction to compress named graphs" Inf. Sci. 647: 119428 (2023)</li>
+                        <br/>
+                        <li>Md Golam Morshed, Tangina Sultana, Aftab Alam, Young-Koo Lee. "Human Action Recognition: A Taxonomy-Based Survey, Updates, and Opportunities" Sensors 23(4): 2182 (2023)</li>
+                        <br/>
+                        <li>Md Golam Morshed, Young-Koo Lee. "LFP: Layer Wise Feature Perturbation based Graph Neural Network for Link Prediction" BigComp 2023: 85-91</li>
+                        <br/>
+                        <li>Irfan Ullah, Sharifullah Khan, Muhammad Imran, Young-Koo Lee. "RweetMiner: Automatic identification and categorization of help requests on twitter during disasters" RweetMiner: Automatic identification and categorization of help requests on twitter during disasters. CoRR abs/2303.02399 (2023)</li>
+                        <br/>
+                        <li>Duong Thi Thu Van, Muhammad Numan Khan, Tariq Habib Afridi, Irfan Ullah, Aftab Alam, Young-Koo Lee. "GDLL: A Scalable and Share Nothing Architecture Based Distributed Graph Neural Networks Framework" IEEE Access 10: 21684-21700 (2022)</li>
+                        <br/>
+                        <li>Moon-Sook Yeon, Young-Koo Lee, Dinh-Lam Pham, Kwanghoon Pio Kim. "Experimental Verification on Human-Centric Network-Based Resource Allocation Approaches for Process-Aware Information Systems" IEEE Access 10: 23342-23354 (2022)</li>
+                        <br/>
+                        <li>Tangina Sultana, Young-Koo Lee. "gRDF: An Efficient Compressor with Reduced Structural Regularities That Utilizes gRePair" Sensors 22(7): 2545 (2022)</li>
+                        <br/>
+                        <li>Muhammad Umair, Young-Koo Lee. "iRun: Horizontal and Vertical Shape of a Region-Based Graph Compression" Sensors 22(24): 9894 (2022)</li>
+                        <br/>
                     </ul>
                 </div>
             </div>
