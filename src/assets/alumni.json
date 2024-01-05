@@ -1,0 +1,12 @@
+{
+    "bachelor-alumni": [
+        {
+            "name": "박현우",
+            "contact": "None",
+            "interests": "Query Optimization",
+            "projects": "SAP",
+            "profileImage": "/images/profile-images/no-img.png",
+            "role": "bachelor-member"
+        }
+    ]
+}
