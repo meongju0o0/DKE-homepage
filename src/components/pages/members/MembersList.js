@@ -11,8 +11,8 @@ export const MembersList = ({ memberInfo }) => {
     return (
         <div>
             {members.map((member, index) => (
-                <div className='section'>
-                    <div className='members' key={index}>
+                <div className='section' key={index}>
+                    <div className='members'>
                         <div className='img-members'>
                             <img className='members' src={member.profileImage} alt={member.name} />
                         </div>
@@ -35,8 +35,8 @@ export const MembersList = ({ memberInfo }) => {
                             </p>
                         </div>
                     </div>
-                    <br/>
-                    <hr/>
+                    <br />
+                    <hr />
                 </div>
             ))}
         </div>
