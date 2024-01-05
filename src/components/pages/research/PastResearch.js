@@ -6,7 +6,7 @@ const PastResearch = () => {
     return (
         <div className="wrapper">
             <div className="main-content">
-
+                <h1 style={ {textAlign: 'center'} }>Not Published yet</h1>
             </div>
         </div>
     )
