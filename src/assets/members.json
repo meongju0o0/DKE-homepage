@@ -1,0 +1,96 @@
+{
+    "doctoral-members": [
+        {
+            "name": "김태연",
+            "contact": "tykim1989@gmail.com",
+            "interests": "Query Optimization",
+            "projects": "SAP",
+            "profileImage": "/images/profile-images/lab_master.jpg",
+            "role": "doctoral-member"
+        },
+        {
+            "name": "Numan Khan",
+            "contact": "None",
+            "interests": "Distributed Training",
+            "projects": "GDBMS",
+            "profileImage": "/images/profile-images/_.jpg",
+            "role": "doctoral-member"
+        },
+        {
+            "name": "Md Golem Morshed",
+            "contact": "None",
+            "interests": "Graph Neural Network",
+            "projects": "GDBMS",
+            "profileImage": "/images/profile-images/_.jpg",
+            "role": "doctoral-member"
+        },
+        {
+            "name": "Chowdhury Shayhan Amin",
+            "contact": "None",
+            "interests": "Graph Neural Network",
+            "projects": "GDBMS",
+            "profileImage": "/images/profile-images/_.jpg",
+            "role": "doctoral-member"
+        },
+        {
+            "name": "Md Arif Rahman",
+            "contact": "None",
+            "interests": "Query Optimization",
+            "projects": "SAP",
+            "profileImage": "/images/profile-images/_.jpg",
+            "role": "doctoral-member"
+        },
+        {
+            "name": "Tariq Habib Afridi",
+            "contact": "None",
+            "interests": "Graph Neural Network",
+            "projects": "GDBMS",
+            "profileImage": "/images/profile-images/_.jpg",
+            "role": "doctoral-member"
+        },
+        {
+            "name": "Muhammad Umair",
+            "contact": "None",
+            "interests": "Keyword Extraction",
+            "projects": "ETRI",
+            "profileImage": "/images/profile-images/_.jpg",
+            "role": "doctoral-member"
+        },
+        {
+            "name": "Kethsiya Gnanajothy",
+            "contact": "None",
+            "interests": "...",
+            "projects": "...",
+            "profileImage": "/images/profile-images/_.jpg",
+            "role": "doctoral-member"
+        }
+    ],
+    "master-members": [
+        {
+            "name": "안형준",
+            "contact": "None",
+            "interests": "Graph Neural Network",
+            "projects": "GDBMS",
+            "profileImage": "/images/profile-images/_.jpg",
+            "role": "master-member"
+        },
+        {
+            "name": "임준원",
+            "contact": "None",
+            "interests": "Search Engine Development",
+            "projects": "ETRI",
+            "profileImage": "/images/profile-images/junwon.jpg",
+            "role": "master-member"
+        }
+    ],
+    "bachelor-members": [
+        {
+            "name": "신주영",
+            "contact": "bl4angel20@khu.ac.kr",
+            "interests": "Distributed Training",
+            "projects": "GDBMS",
+            "profileImage": "/images/profile-images/juyeong.jpg",
+            "role": "bachelor-member"
+        }
+    ]
+}

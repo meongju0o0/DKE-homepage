@@ -26,7 +26,7 @@ const Navbar = () => {
                             <Link to="/pages/members/bachelor">Bachelor</Link>
                             <Link to="/pages/members/alumni">Alumni</Link>
                         </div>
-                    </div> 
+                    </div>
                     <div className="dropdown">
                         <button className="dropbtn">Publications
                             <i className="fa fa-caret-down"></i>
@@ -36,7 +36,7 @@ const Navbar = () => {
                             <NewTabLink to="https://scholar.google.co.kr/citations?user=Xk6Ige8AAAAJ&hl=en">Google Scholar</NewTabLink>
                             <NewTabLink to="https://www.dbpia.co.kr/author/authorDetail?ancId=231140">DBpia</NewTabLink>
                         </div>
-                    </div> 
+                    </div>
                     <div className="dropdown">
                         <button className="dropbtn">Research
                             <i className="fa fa-caret-down"></i>
@@ -45,7 +45,7 @@ const Navbar = () => {
                             <Link to="/pages/research/past-research">Past Studies</Link>
                             <Link to="/pages/research/ongoing-research">Ongoing Studies</Link>
                         </div>
-                    </div> 
+                    </div>
                     <div className="dropdown">
                         <button className="dropbtn">About DKE Lab.
                             <i className="fa fa-caret-down"></i>

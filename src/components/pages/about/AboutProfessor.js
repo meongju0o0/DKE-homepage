@@ -12,12 +12,12 @@ const AboutProfessor = () => {
             <div className="main-content">
                 <div className="intro">
                     <div className="img-intro">
-                        <img className="intro" src="/images/profile-images/professor.png" alt="Prof. Young-Koo Lee"/>
+                        <img className="intro" src="/images/profile-images/professor.png" alt="Prof. Young-Koo Lee" />
                     </div>
                     <div className="text-intro">
                         <h2>Dr. Lee, Young-Koo</h2>
                         <h3 style={ {marginTop: '0px'} }>Professor, Laboratory Advisor</h3>
-                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <hr/>
                         
                         <h4 className="intro">Address</h4>
                         <p className="intro">College of Electronics Information and Applied Science,</p>
@@ -42,9 +42,9 @@ const AboutProfessor = () => {
                     <h3 className="intro">Education</h3>
                     <ul>
                         <Education department = { "Computer Science" } school = { "Korea Advanced Institute of Science and Technology" } degree = { "Doctoral Degree" } country = { "Daejeon, Republic of Korea" } date = { "Mar. 1994 - Feb. 2002" } />
-                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <hr/>
                         <Education department = { "Computer Science" } school = { "Korea Advanced Institute of Science and Technology" } degree = { "Master Degree" } country = { "Daejeon, Republic of Korea" } date = { "Mar. 1992 - Feb. 1994" } />
-                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <hr/>
                         <Education department = { "Computer Science" } school = { "Korea Advanced Institute of Science and Technology" } degree = { "Bachelor Degree" } country = { "Daejeon, Republic of Korea" } date = { "Mar. 1988 - Feb. 1992" } />
                     </ul>
                 </div>
@@ -52,13 +52,13 @@ const AboutProfessor = () => {
                     <h3 className="intro">Professional Experiences</h3>
                     <ul>
                         <Experiences department = { "Department of Computer Science and Engineering" } company = { "Kyung Hee University" } position = { "Professor" } country = { "Yong-In, Korea" } date = { "Mar. 2015 - present" } />
-                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <hr/>
                         <Experiences department = { "Department of Computer Science and Engineering" } company = { "Kyung Hee University" } position = { "Associate Professor" } country = { "Yong-In, Korea" } date = { "Mar. 2010 - Feb. 2015" } />
-                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <hr/>
                         <Experiences department = { "Department of Computer Science and Engineering" } company = { "Kyung Hee University" } position = { "Assistant Professor" } country = { "Yong-In, Korea" } date = { "Mar. 2004 - Feb. 2010" } />
-                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <hr/>
                         <Experiences department = { "Department of Computer Engineering" } company = { "University of Illinois at Urbana-Champaign" } position = { "Postdoctoral Research Associate" } country = { "Illinois, USA" } date = { "Sep. 2002 - Feb. 2004" } />
-                        <hr style={ {marginTop: '0px', border: 'solid 1px #999'} }/>
+                        <hr/>
                         <Experiences department = { "Adavanced Information Technology Research Center(AITrc)" } company = { "KAIST" } position = { "Post Doctoral Fellow" } country = { "Daejeon, Korea" } date = { "Mar. 2002 - Feb. 2004" } />
                     </ul>
                 </div>

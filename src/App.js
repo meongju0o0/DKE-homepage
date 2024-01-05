@@ -7,6 +7,7 @@ import MainPage from './MainPage';
 
 import AboutProfessor from './components/pages/about/AboutProfessor'
 import Missions from './components/pages/about/Missions'
+import Contact from './components/pages/about/Contact'
 
 import PastResearch from './components/pages/research/PastResearch'
 import OngoingResearch from './components/pages/research/OngoingResearch'
@@ -32,6 +33,7 @@ function App() {
 
                     <Route path="/pages/about/about-professor" element={<AboutProfessor />} />
                     <Route path="/pages/about/missions" element={<Missions />} />
+                    <Route path="/pages/about/contact" element={<Contact />} />
 
                     <Route path="/pages/research/past-research" element={<PastResearch />} />
                     <Route path="/pages/research/ongoing-research" element={<OngoingResearch />} />

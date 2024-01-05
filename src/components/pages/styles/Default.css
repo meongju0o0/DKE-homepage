@@ -13,6 +13,11 @@ li {
     line-height: 130%;
 }
 
+hr {
+    margin-top: '0px';
+    border: 'solid 1px #999';
+}
+
 .main-content {
     background-color: white;
     padding: 20px;

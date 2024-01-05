@@ -27,7 +27,7 @@ const OngoingResearch = () => {
                     <div className="section">
                         <ul>
                             <h3>In-Memory DBMS Query Optimization</h3>
-                            {/*<img src={ } alt="DBMS" />*/}
+                            {/*<img src={DBMS} alt="DBMS" />*/}
                             <p>SQL Script optimization over optimal replica configuration considers two objectives for performance maximization: minimizing the total response time and the total amount used replica over cloud ERNs. However, modern database cloud services provide another objective: minimizing the price of using cloud ERNs. Sometimes, performance maximization causes a high resource/ computation price.</p>
                             <p>It is very challenging to maintain the total cost of ownership (TCO) that provide less resource, less human effort, and serverless service. Thus, the problem becomes price minimization and performance maximization of SQL Script over cloud ERNs.</p>
                             <p>In existing works, response time and monetary cost-aware optimization focus only on declarative queries on the cloud database system. To the best of our knowledge, we are the first to propose response time and monetary cost-aware UDF/SQL Script optimization that consider both imperatives and declaratives over cloud ERNs.</p>
