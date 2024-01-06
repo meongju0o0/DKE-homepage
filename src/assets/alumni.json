@@ -1,12 +1,228 @@
 {
+    "doctoral-alumni": [
+        {
+            "name": "연문숙",
+            "company": "KyungHeeUniversity",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "한용구",
+            "company": "MetaBuild",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "김진승",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "박기성",
+            "company": "SAP",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "김현욱",
+            "company": "KAIST",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "서호진",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Wang Jin",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Hasan MD Kamrul",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Rasheed Tahir",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Khan Adil Mehmood",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Islam Khandoker Tarik-UL",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Phan Thi Thu Thuy",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Amin Muhammad Bilal",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Crocker Garcia Guillermo",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Iram Fatima",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Kifaya Ullah Khan",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Phan Anh The",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Nawaz Waqas khokhar",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Aftab Alam",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Tangina Sultana",
+            "company": "",
+            "role": "doctoral-alumni"
+        },
+        {
+            "name": "Van Thi Thu Thong",
+            "company": "",
+            "role": "doctoral-alumni"
+        }
+    ],
+    "master-alumni": [
+        {
+            "name": "이승현",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "홍지혜",
+            "company": "NongHyup",
+            "role": "master-alumni"
+        },
+        {
+            "name": "양낙용",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "최재욱",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "조혜원",
+            "company": "NCSoft",
+            "role": "master-alumni"
+        },
+        {
+            "name": "정종영",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "김진승",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "손지황",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "여반석",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "상의정",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "박성수",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "유유진",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "권기진",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "Thang Ngueyn Duc",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "Sajal Halder",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "MD Mostofa Kamal Rasel",
+            "company": "",
+            "role": "master-alumni"
+        },
+        {
+            "name": "Kamran Najeebullah",
+            "company": "",
+            "role": "master-alumni"
+        }
+    ],
     "bachelor-alumni": [
         {
-            "name": "박현우",
-            "contact": "None",
-            "interests": "Query Optimization",
-            "projects": "SAP",
-            "profileImage": "/images/profile-images/no-img.png",
-            "role": "bachelor-member"
+            "name": "조인식",
+            "company": "",
+            "role": "bachelor-alumni"
+        },
+        {
+            "name": "박준연",
+            "company": "",
+            "role": "bachelor-alumni"
+        },
+        {
+            "name": "차준성",
+            "company": "",
+            "role": "bachelor-alumni"
+        },
+        {
+            "name": "김준현",
+            "company": "",
+            "role": "bachelor-alumni"
+        },
+        {
+            "name": "김영빈",
+            "company": "",
+            "role": "bachelor-alumni"
+        },
+        {
+            "name": "배승호",
+            "company": "",
+            "role": "bachelor-alumni"
         }
     ]
 }

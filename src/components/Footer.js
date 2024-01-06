@@ -3,13 +3,12 @@ import '../styles/Footer.css';
 
 const Footer = () => {
     return (
-        <footer> {
+        <footer>
             <div className="footer">
                 <div className="wrapper">
                     <p>ⓒ 2024 KHU DKE Lab. All rights reserved.</p>
                 </div>
             </div>
-        }
         </footer>
     );
 };

@@ -26,30 +26,28 @@ import Allumni from './components/pages/members/Allumni'
 function App() {
     return (
         <Router>
-            <div>
-                <Navbar />
-                <Routes>
-                    <Route path="/" element={<MainPage />} />
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<MainPage />} />
 
-                    <Route path="/pages/about/about-professor" element={<AboutProfessor />} />
-                    <Route path="/pages/about/missions" element={<Missions />} />
-                    <Route path="/pages/about/contact" element={<Contact />} />
+                <Route path="/pages/about/about-professor" element={<AboutProfessor />} />
+                <Route path="/pages/about/missions" element={<Missions />} />
+                <Route path="/pages/about/contact" element={<Contact />} />
 
-                    <Route path="/pages/research/past-research" element={<PastResearch />} />
-                    <Route path="/pages/research/ongoing-research" element={<OngoingResearch />} />
+                <Route path="/pages/research/past-research" element={<PastResearch />} />
+                <Route path="/pages/research/ongoing-research" element={<OngoingResearch />} />
 
-                    <Route path="/pages/publications/domestic-conference" element={<DomesticConference />} />
-                    <Route path="/pages/publications/domestic-journal" element={<DomesticJournal />} />
-                    <Route path="/pages/publications/international-conference" element={<InternationalConference />} />
-                    <Route path="/pages/publications/international-journal" element={<InternationalJournal />} />
+                <Route path="/pages/publications/domestic-conference" element={<DomesticConference />} />
+                <Route path="/pages/publications/domestic-journal" element={<DomesticJournal />} />
+                <Route path="/pages/publications/international-conference" element={<InternationalConference />} />
+                <Route path="/pages/publications/international-journal" element={<InternationalJournal />} />
 
-                    <Route path="/pages/members/doctoral" element={<Doctoral />} />
-                    <Route path="/pages/members/master" element={<Master />} />
-                    <Route path="/pages/members/bachelor" element={<Bachelor />} />
-                    <Route path="/pages/members/alumni" element={<Allumni />} />
-                </Routes>
-                <Footer />
-            </div>
+                <Route path="/pages/members/doctoral" element={<Doctoral />} />
+                <Route path="/pages/members/master" element={<Master />} />
+                <Route path="/pages/members/bachelor" element={<Bachelor />} />
+                <Route path="/pages/members/alumni" element={<Allumni />} />
+            </Routes>
+            <Footer />
         </Router>
     );
 }
