@@ -21,16 +21,15 @@ export function Header() {
     const particlesOptions = particlesConfig
 
     return (
-        <header> {
-            <div className="header">
-                <Particles id="Particles" init={particlesInit} loaded={particlesLoaded} options={particlesOptions}/>
+        <header>
+            <div className='header'>
+                <Particles id="Particles" init={particlesInit} loaded={particlesLoaded} options={particlesOptions} />
                 <Link to="/">
                     <div className="header-content">
                         <h1>Data & Knowledge Engineering Lab.</h1>
                     </div>
                 </Link>
             </div>
-        }
         </header>
     )
 }

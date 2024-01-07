@@ -12,8 +12,8 @@ const Navbar = () => {
             <div className="navbar">
                 <div className = "wrapper">
                     <button style={ {marginLeft: '10px', marginTop: '5px', padding: '0px', border: '0px', backgroundColor: '#333'}}>
-                        <Link to= "/" style={ {padding: '0px', backgroundColor: '#333'}}>
-                            <img style={ {width: '80px', backgroundColor: '#333', padding: '0px', margin: '0px'} } src={ LOGO } alt="DistLearning" />
+                        <Link to= "/" style={ {padding: '0px', backgroundColor: '#555'}}>
+                            <img style={ {width: '80px', backgroundColor: '#555', padding: '0px', margin: '0px'} } src={ LOGO } alt="DistLearning" />
                         </Link>
                     </button>
                     <div className="dropdown">

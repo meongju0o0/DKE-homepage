@@ -1,9 +1,10 @@
 .header {
-    height: 200px;
+    height: 420px;
     padding: 0px;
+    font-size: 26px;
     text-align: center;
     position: relative;
-    overflow: clip;
+    overflow: hidden;
 }
 
 .header-content {
@@ -13,6 +14,7 @@
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    z-index: 1;
 }
 
 .header a, .header a:visited {
@@ -21,10 +23,13 @@
 }
 
 #Particles {
+    background-size: 100%;
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: relative;
     overflow: hidden;
+    top: 0;
+    left: 0;
     z-index: -1;
-    background-color: #555;
+    background-color: #777;
 }

@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f3f3;
+    background-color: #fff;
 }
 
 p {
@@ -30,28 +30,28 @@ hr {
 }
 
 .wrapper {
-    max-width: 80%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 10px;
 }
 
 @media screen and (min-width: 1024px) {
     .wrapper {
-        max-width: 70%;
+        max-width: 80%;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .wrapper {
-        max-width: 60%;
+        max-width: 70%;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 1920px) {
     .wrapper {
-        max-width: 50%;
+        max-width: 60%;
         margin: 0 auto;
     }
 }

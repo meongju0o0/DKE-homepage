@@ -22,10 +22,9 @@ export const MainContent = () => {
     return (
         <div> {
             <div className="main-content">
-                <Slider images={images} />
-
                 <div className="section">
-                    <h2>Data & Knowledge Engineering Lab.</h2>
+                    <h1 style={ {"textAlign" : "center"} }>Data & Knowledge Engineering Laboratory</h1>
+                    <Slider images={images} />
                     <p>Welcome to our Data & Knowledge Engineering Laboratory, a place where the pursuit of knowledge and technological advancements merge, opening the doors to new discoveries and transformative innovations. Our laboratory is a melting pot of intellectuals and enthusiasts who share a passion for harnessing the power of data, utilizing it to derive insights, make informed decisions, and ultimately, contribute to creating a better future.</p>
                     <p>At the core of work is the study of complex data systems, the creation and optimization of learning algorithms, and the exploration of the intricate relationship between data and human emotion. We work with Graph Neural Networks (GNNs), engage in Distributed Training, optimize In-Memory Database Procedures, and delve into the realm of Emotion Detection.</p>
                 </div>
@@ -53,19 +52,23 @@ export const MainContent = () => {
 
                 <div className="section">
                     <h2>Recruitment</h2>
-                    <p>We are looking for graduate students to research together in Data and Knowledge Engineering Laborotry at Computer Science and Engineering, Kyung Hee University.</p>
-                    <p>In our lab, we always greets self-motivated students. and also greets for who is interested in high-speed data processing and artificial intelligence.</p>
-                    <p>If you are interested in our research fields, please contact Prof. Young-Koo Lee (yklee@khu.ac.kr)</p>
-                    <p>Thank you.</p>
+                    <ul>
+                        <p>We are looking for graduate students to research together in Data and Knowledge Engineering Laborotry at Computer Science and Engineering, Kyung Hee University.</p>
+                        <p>In our lab, we always greets self-motivated students. and also greets for who is interested in high-speed data processing and artificial intelligence.</p>
+                        <p>If you are interested in our research fields, please contact Prof. Young-Koo Lee (yklee@khu.ac.kr)</p>
+                        <p>Thank you.</p>
+                    </ul>
                 </div>
 
                 <div className="section">
                     <h2>Partners</h2>
-                    <img className="sponsor" src={IITP} alt="IITP" />
-                    <img className="sponsor" src={ETRI} alt="ETRI" />
-                    <img className="sponsor" src={SAP} alt="SAP" />
-                    <img className="sponsor" src={POSTECH} alt="POSTECH" />
-                    <img className="sponsor" src={KNU} alt="KNU" />
+                    <ul>
+                        <img className="sponsor" src={IITP} alt="IITP" />
+                        <img className="sponsor" src={ETRI} alt="ETRI" />
+                        <img className="sponsor" src={SAP} alt="SAP" />
+                        <img className="sponsor" src={POSTECH} alt="POSTECH" />
+                        <img className="sponsor" src={KNU} alt="KNU" />
+                    </ul>
                 </div>
             </div>
         }

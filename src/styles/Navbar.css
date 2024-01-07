@@ -6,7 +6,7 @@
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #555;
 }
 
 .navbar a {
@@ -14,7 +14,7 @@
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 20px; 
     text-decoration: none;
 }
 
