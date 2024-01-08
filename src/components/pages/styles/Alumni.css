@@ -1,0 +1,18 @@
+.alumni-container {
+    clear: both;
+    overflow: hidden;
+}
+
+.left-container, .right-container {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.right-container {
+    float: right;
+}
+
+.sub-container {
+    height: 64px;
+}

@@ -5,7 +5,9 @@
             "contact": "tykim1989@gmail.com",
             "interests": "Query Optimization",
             "projects": "SAP",
-            "profileImage": "/images/profile-images/lab_master.jpg",
+            "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "doctoral-member"
         },
         {
@@ -14,6 +16,8 @@
             "interests": "Distributed Training",
             "projects": "GDBMS",
             "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "doctoral-member"
         },
         {
@@ -22,6 +26,8 @@
             "interests": "Graph Neural Network",
             "projects": "GDBMS",
             "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "doctoral-member"
         },
         {
@@ -30,6 +36,8 @@
             "interests": "Graph Neural Network",
             "projects": "GDBMS",
             "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "doctoral-member"
         },
         {
@@ -38,6 +46,8 @@
             "interests": "Graph Neural Network",
             "projects": "GDBMS",
             "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "doctoral-member"
         },
         {
@@ -46,6 +56,8 @@
             "interests": "Query Optimization",
             "projects": "SAP",
             "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "doctoral-member"
         },
         {
@@ -54,6 +66,8 @@
             "interests": "Graph Neural Network",
             "projects": "GDBMS",
             "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "doctoral-member"
         },
         {
@@ -62,6 +76,8 @@
             "interests": "Keyword Extraction",
             "projects": "ETRI",
             "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "doctoral-member"
         },
         {
@@ -70,34 +86,42 @@
             "interests": "...",
             "projects": "...",
             "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "doctoral-member"
         }
     ],
     "master-members": [
-        {
-            "name": "안형준",
-            "contact": "None",
-            "interests": "Graph Neural Network",
-            "projects": "GDBMS",
-            "profileImage": "/images/profile-images/no-img.png",
-            "role": "master-member"
-        },
         {
             "name": "임준원",
             "contact": "None",
             "interests": "Search Engine Development",
             "projects": "ETRI",
             "profileImage": "/images/profile-images/junwon.jpg",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
+            "role": "master-member"
+        },
+        {
+            "name": "안형준",
+            "contact": "2016104132@khu.ac.kr",
+            "interests": "Graph Neural Network",
+            "projects": "GDBMS",
+            "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "master-member"
         }
     ],
     "bachelor-members": [
         {
             "name": "박현우",
-            "contact": "None",
+            "contact": "laurelwoods0102@khu.ac.kr",
             "interests": "Query Optimization",
             "projects": "SAP",
             "profileImage": "/images/profile-images/no-img.png",
+            "github": "https://github.com/laurelwoods0102",
+            "googleScholar": "https://scholar.google.co.kr",
             "role": "bachelor-member"
         },
         {
@@ -106,6 +130,8 @@
             "interests": "Distributed Training",
             "projects": "GDBMS",
             "profileImage": "/images/profile-images/juyeong.jpg",
+            "github": "https://github.com/meongju0o0",
+            "googleScholar": "https://scholar.google.co.kr/citations?user=ND0oIHUAAAAJ&hl=ko",
             "role": "bachelor-member"
         }
     ]

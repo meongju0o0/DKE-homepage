@@ -20,7 +20,7 @@ import InternationalJournal from './components/pages/publications/InternationalJ
 import Doctoral from './components/pages/members/Doctoral'
 import Master from './components/pages/members/Master'
 import Bachelor from './components/pages/members/Bachelor'
-import Allumni from './components/pages/members/Allumni'
+import Alumni from './components/pages/members/Alumni'
 
 
 function App() {
@@ -45,7 +45,7 @@ function App() {
                 <Route path="/pages/members/doctoral" element={<Doctoral />} />
                 <Route path="/pages/members/master" element={<Master />} />
                 <Route path="/pages/members/bachelor" element={<Bachelor />} />
-                <Route path="/pages/members/alumni" element={<Allumni />} />
+                <Route path="/pages/members/alumni" element={<Alumni />} />
             </Routes>
             <Footer />
         </Router>

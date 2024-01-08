@@ -22,12 +22,12 @@ export const MembersList = ({ memberInfo }) => {
                             <p className='p-members'>Interests: {member.interests}</p>
                             <p className='p-members'>Project: {member.projects}</p>
                             <p className='p-members'>
-                                <NewTabLink to='https://github.com/'>
+                                <NewTabLink to={member.github}>
                                     <span style={ {marginRight: '10px'} }>
                                         Github
                                     </span>
                                 </NewTabLink>
-                                <NewTabLink style={ {marginRight: '10px'} } to='https://scholar.google.co.kr/'>
+                                <NewTabLink style={ {marginRight: '10px'} } to={member.googleScholar}>
                                     <span style={ {marginRight: '10px'} }>
                                         Google Scholar
                                     </span>
