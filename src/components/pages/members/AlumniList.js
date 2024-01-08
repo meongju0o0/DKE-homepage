@@ -13,8 +13,8 @@ export function AlumniList({ memberInfo }) {
                 <div key={index}>
                     <div className={index % 2 === 0 ? 'left-container' : 'right-container'}>
                         <div className='sub-container'>
-                            <h2 style={ {marginTop: "4px", marginBottom:"4px"}}>{member.name}</h2>
-                            <p style={ {marginTop: "10px", marginBottom:"10px"}}>Company: {member.company}</p>
+                            <h3 style={ {marginTop: "4px", marginBottom:"4px"}}>{member.name}</h3>
+                            <p style={ {marginTop: "4px", marginBottom:"6px"}}>Company: {member.company}</p>
                         </div>
                         <hr style={{border: 'solid 0.1px #bbb'}}/>
                     </div>
